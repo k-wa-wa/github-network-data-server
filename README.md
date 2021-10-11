@@ -1,6 +1,6 @@
 - setup
 ```
-$ cd github-network-server
+$ cd github-network-data-server
 $ go mod tidy
 ```
 
@@ -12,4 +12,6 @@ $ mysql -u root < ./db/init.sql
 - run server
 ```
 $ go run .
+or
+$ go build main.go && ./main
 ```
