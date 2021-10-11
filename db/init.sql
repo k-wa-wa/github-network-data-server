@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS `github-network`;
 USE `github-network`;
 
 -- DANGER!!!
-DROP TABLE IF EXISTS pull_requests, issues, users;
+-- DROP TABLE IF EXISTS pull_requests, issues, users;
 
 CREATE TABLE IF NOT EXISTS pull_requests (
     id                            INT          PRIMARY KEY,
